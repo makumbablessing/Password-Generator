@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+  font-family: Arial, sans-serif;
+}
+
+.password-generator {
+  max-width: 320px;
+  padding: 20px;
+  background: #1e1e1e;
+  color: white;
+  border-radius: 10px;
+}
+
+input, button {
+  width: 100%;
+  margin: 6px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
